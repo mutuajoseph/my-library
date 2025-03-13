@@ -1,0 +1,88 @@
+Project Proposal: My Library Web Application
+
+Overview:
+
+"My Library" is a simple, intuitive web application designed for users to manage and organize their book collections. 
+Users can add, edit, delete, and track the reading status of books. 
+The application will use local storage for data persistence, ensuring a seamless, offline-capable user experience.
+
+Project Objectives:
+
+Develop a user-friendly interface using HTML, CSS, and JavaScript.
+
+Allow users to add, view, update, and delete books from their personal library.
+
+Implement persistent storage using browser local storage.
+
+Enhance usability with responsive design for compatibility across devices.
+
+Functional Requirements:
+
+Book Management:
+
+Add new books with details such as title, author, genre, and read status.
+
+Edit existing book information.
+
+Delete books from the library.
+
+Search & Filter:
+
+Allow users to search books by title or author.
+
+Filter books based on status (read/unread).
+
+Persistent Storage:
+
+Save book details to local storage.
+
+Retrieve and render saved data upon page reload.
+
+Technical Requirements:
+
+Frontend: HTML5, CSS3 (with responsive design), JavaScript (ES6).
+
+No external frameworks or libraries required; pure vanilla JavaScript implementation.
+
+User Interface Components:
+
+Landing/Home Page:
+
+Display all books in a clear, sortable, and searchable list or grid.
+
+Book Entry Form:
+
+Inputs for Title, Author, Pages, and Read status.
+
+Interactive Elements:
+
+Buttons for adding, editing, marking books as read/unread, and deleting.
+
+Timeline:
+
+UI Design: 1 day
+
+Core functionality development: 2 days
+
+Persistent storage implementation: 1 day
+
+Testing & Debugging: 1 day
+
+Deliverables:
+
+Complete HTML, CSS, and JavaScript source code.
+
+Documentation on how to use and maintain the application.
+
+A live demo hosted via GitHub Pages (optional).
+
+Evaluation Criteria:
+
+Functionality and stability of CRUD operations.
+
+Effective use of local storage for data persistence.
+
+Responsive and intuitive UI/UX design.
+
+Clean and maintainable code structure.
+
