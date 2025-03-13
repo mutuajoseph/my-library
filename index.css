@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR STYLES */
+
+.navbar {
+    background-color: rgba(0, 0, 255, 0.633);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem
+}
+
+.links-container > li { 
+    list-style: none;
+}
+
+.links-container > li > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* END OF NAVBAR STYLES */
+
+
+/* MAIN CONTENT STYLES */
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.form-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-container > h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #000000;
+}
+
+.form-container > p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group > label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000000;
+}
+
+.form-group > input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.form-group > button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: rgba(0, 0, 255, 0.633);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.books-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.books-container > h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #000000;
+}
+
+.books-container > p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #000000;
+}
+
+.books-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.books-table > thead {
+    background-color: rgba(0, 0, 255, 0.633);
+    color: #ffffff;
+}
+
+.books-table > thead > tr > th {
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.books-table > tbody > tr > td {
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    border-bottom: 1px solid #000000;
+}
+
+/* END OF MAIN CONTENT STYLES */
